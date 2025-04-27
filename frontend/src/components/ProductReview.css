@@ -1,0 +1,92 @@
+/* ProductReview.css */
+
+/* Container for review page */
+.review-container {
+    background: #fff;
+    color: #6a1b9a; /* Purple text */
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2rem;
+    color: #6a1b9a; /* Purple title */
+    margin-bottom: 20px;
+}
+
+/* Rating Section */
+.rating {
+    margin: 15px 0;
+}
+
+.rating select {
+    padding: 8px;
+    font-size: 1.1rem;
+    color: #6a1b9a;
+    border: 1px solid #d1c4e9;
+    border-radius: 5px;
+}
+
+/* Review Text Section */
+.review-text textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: #6a1b9a;
+    border: 1px solid #d1c4e9;
+    border-radius: 5px;
+    resize: none;
+    margin-top: 10px;
+}
+
+/* Submit Button */
+.submit-review-btn {
+    margin-top: 20px;
+    padding: 14px 30px;
+    background-color: #6a1b9a; /* Purple background */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.submit-review-btn:hover {
+    background-color: #9c27b0; /* Purple hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.submit-review-btn:active {
+    transform: scale(0.98);
+}
+
+/* Back to Home Button */
+.back-home-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #6a1b9a;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.back-home-btn:hover {
+    background-color: #9c27b0; /* Purple hover */
+}

@@ -1,0 +1,51 @@
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .sidebar nav ul li:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    flex: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 30px;
+  }
+  

@@ -1,0 +1,127 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #6a1b9a; /* Purple header */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items {
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #6a1b9a; /* Purple item name */
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .remove-btn {
+    padding: 8px 15px;
+    background-color: #d32f2f; /* Red remove button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c2185b; /* Darker red for hover */
+  }
+  
+  .empty-cart {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .checkout-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a1b9a; /* Purple checkout button */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #8e24aa; /* Lighter purple for hover */
+  }
+  
+  .message {
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #6a1b9a; /* Purple message background */
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .message.error {
+    background-color: #d32f2f; /* Red message for error */
+  }
+  
+  .message.success {
+    background-color: #388e3c; /* Green message for success */
+  }
+  
+  @media (max-width: 600px) {
+    .cart-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .checkout-btn {
+      font-size: 1.2rem;
+    }
+  }
+  
